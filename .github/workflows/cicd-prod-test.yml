@@ -25,4 +25,4 @@ jobs:
     - name: Test
       run: pytest
     - name: Test coverage
-      run: pytest --cov=. --cov-fail-under=5
+      run: pytest --cov=. --cov-fail-under=1
