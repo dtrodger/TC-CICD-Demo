@@ -3,8 +3,8 @@
         "aws_region": "us-east-2",
         "django_settings": "exed.settings",
         "profile_name": "default",
-        "project_name": "exed-cicd-2",
+        "project_name": "exed-cicd-2-qa",
         "runtime": "python3.8",
-        "s3_bucket": "zappa-ipd821jlk"
+        "s3_bucket": "zappa-l53lvqq2u"
     }
 }
