@@ -35,5 +35,5 @@ jobs:
         memory_size: 128
         timeout: 10
         handler: handler.lambda_handler
-        role: arn:aws:iam::003903245551:role/exed-cicd-2-dev-ZappaLambdaExecutionRole
+        role: arn:aws:iam::642030467107:role/exed-cicd-2-dev-ZappaLambdaExecutionRole
         runtime: python3.8
