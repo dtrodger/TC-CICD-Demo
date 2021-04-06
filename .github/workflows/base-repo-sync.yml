@@ -5,7 +5,7 @@ on:
     branches: [ base ]
 
 jobs:
-  git-sync:
+  repo-sync:
     runs-on: ubuntu-latest
     steps:
       - name: git-sync
@@ -15,4 +15,3 @@ jobs:
           source_branch: "base"
           destination_repo: "dtrodger/TC-CICD-Demo-Sync"
           destination_branch: "main"
-          ssh_private_key: ${{ secrets.SSHKEY }} # optional

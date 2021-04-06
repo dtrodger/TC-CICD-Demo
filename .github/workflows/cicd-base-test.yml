@@ -5,7 +5,7 @@ on:
     branches: [ base ]
 
 jobs:
-  test:
+  cicd-test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
