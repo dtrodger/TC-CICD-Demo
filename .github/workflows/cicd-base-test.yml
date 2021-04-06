@@ -1,4 +1,4 @@
-name: Production CICD Test
+name: Base CICD Test
 
 on:
   pull_request:
