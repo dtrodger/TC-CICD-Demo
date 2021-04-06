@@ -5,7 +5,7 @@ on:
     branches: [ base ]
 
 jobs:
-  deploy:
+  repo-sync:
     runs-on: ubuntu-latest
     steps:
       - uses: net-engine/github-repository-sync-action@v1
