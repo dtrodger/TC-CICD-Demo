@@ -1,0 +1,18 @@
+name: Base Repo Sync
+
+on:
+  push:
+    branches: [ base ]
+
+jobs:
+  git-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git-sync
+        uses: wei/git-sync@v3
+        with:
+          source_repo: "git@github.com/dtrodger/TC-CICD-Demo"
+          source_branch: "base"
+          destination_repo: "git@github.com/dtrodger/TC-CICD-Demo-Sync"
+          destination_branch: "main"
+          ssh_private_key: ${{ secrets.SSHKEY }}
