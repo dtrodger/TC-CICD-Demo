@@ -5,7 +5,7 @@ on:
     branches: [ base ]
 
 jobs:
-  git-sync:
+  repo-sync:
     runs-on: ubuntu-latest
     steps:
       - name: git-sync
