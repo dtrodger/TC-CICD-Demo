@@ -11,8 +11,8 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "git@github.com/dtrodger/TC-CICD-Demo"
+          source_repo: "git@github.com:dtrodger/TC-CICD-Demo.git"
           source_branch: "base"
-          destination_repo: "git@github.com/dtrodger/TC-CICD-Demo-Sync"
+          destination_repo: "git@github.com/dtrodger/TC-CICD-Demo-Sync.git"
           destination_branch: "main"
           ssh_private_key: ${{ secrets.SSHKEY }}
