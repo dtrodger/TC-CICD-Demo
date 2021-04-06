@@ -15,4 +15,3 @@ jobs:
           source_branch: "base"
           destination_repo: "dtrodger/TC-CICD-Demo-Sync"
           destination_branch: "main"
-          ssh_private_key: ${{ secrets.SSHKEY }} # optional
